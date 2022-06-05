@@ -5,8 +5,6 @@ In 2019, I saw the movie 21 and took an interest in card counting in blackjack. 
 
 I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is. 
 
-## Disclaimer: The writer of this code does not assume any financial responsibility for those who risk their money counting cards with blackjack. Like all ventures that require money to make money, there is an inherent risk to gambling even with an advantage. The edge over the casino is very small, for limited moments throughout a blackjack game, and the predicted standard deviation is large so I recommend only playing with mooney that one can afford to lose. I further recommend looking into a concept known as risk of ruin, which is the probability of counting cards perfectly but still losing all of the money that the player allocated to this venture. With a more conservative bet-spread it's possible to reduce this probability at the loss of some potential reward. 
-
 Common Blackjack terms: 
 
 Blackjack Shoe: Container that holds multiple standard 52-card decks shuffled together. The shoe allows for more games to be played by reducing the time between shuffling. 
@@ -26,5 +24,8 @@ True count: The running count divided by the number of decks remaining. Larger t
 Deck penetration: In order to prevent card counting and running out of cards in the middle of a round, some fraction of cards are not dealt. The greater the number of cards not dealt, the less effective card counting will be. 
 
 Risk of ruin: The probability of playing perfect blackjack and counting cards perfectly but still losing the entire sum of money allocated to this venture. It is a function of player ability (perfect blackjack strategy, card counting, true count conversion), casino rules (number of decks, deck penetration, blackjack payout rate, split rules, doubling after splitting, etc.) and should be calculated by the player after winning/losing money. 
+
+
+# Disclaimer: The writer of this code does not assume any financial responsibility for those who risk their money counting cards with blackjack. Like all ventures that require money to make money, there is an inherent risk to gambling even with an advantage. The edge over the casino is very small, for limited moments throughout a blackjack game, and the predicted standard deviation is large so I recommend only playing with mooney that one can afford to lose. I further recommend looking into a concept known as risk of ruin, which is the probability of counting cards perfectly but still losing all of the money that the player allocated to this venture. With a more conservative bet-spread it's possible to reduce this probability at the loss of some potential reward. 
 
 
