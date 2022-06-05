@@ -5,12 +5,20 @@ In 2019, I saw the movie 21 and took an interest in card counting in blackjack. 
 
 I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is. 
 
-# Running : 
+# To run the code : 
 
     python simulate_blackjack.py num_decks=6 deck_penetration=0.1 num_shoes=1000
     
 
-where the first argument is the number of decks, the second is deck penetration, and the third is 
+More accurate results will be obtained by increasing the number of shoes run. The number of decks is casino dependent but it is in your best interest to seek blackjack games with fewer decks and smaller deck penetration. Some simulations are shown below illustrating these points. 
+
+Note this code assumes the following set of blackjack rules (rules that I have personally encountered). 
+
+1. Dealer stays on Soft 17. 
+2. Splitting is not allowed.
+3. Surrending is allowed. 
+4. You can double whenever. 
+5. Blackjack pays at a 3:2*initial wager rate.
 
 # Common Blackjack terms: 
 
