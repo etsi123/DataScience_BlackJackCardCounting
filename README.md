@@ -26,7 +26,7 @@ Blackjack Shoe: Container that holds multiple standard 52-card decks shuffled to
 
 Doubling down: After the cards have been dealt and it's the players turn to act, a player is allowed to raise their bet by a maximum of 2x the original bet with the restriction that the player will only receive one card. 
 
-Split: If two cards have the same-value, many casinos allow players to split the cards into two seperate hands that can be played independently (provided that the player can provide a second-bet equal to the first). 
+Split: If two cards have the same-value, many casinos allow players to split the cards into two seperate hands that can be played independently (provided that the player can provide a second-bet equal to the first). One of the casino's that I visited frequently did not allow splits (likely because of the myth that is necessary to count cards). 
 
 # Common card counting terms: 
 
