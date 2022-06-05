@@ -1,7 +1,7 @@
 # Blackjack Card Counting
 
 
-In 2019, I saw the movie 21 and took an interest in card counting in blackjack. As it turns out, it is really quite simple as long as you practice and follow the rules. The basic premise is that cards dealt are not replaced into the deck immediately which means that it's possible to predict cards to come based upon which have left the deck. Since Aces and large cards (Ten, Jack, Queen, King) favor the player and smaller cards (2-6) favor the dealer, we can keep track of the ratio of favorable cards to unfavorable cards that have been dealt. If there is a surplus of favorable cards yet to be dealt, they are statistically more likely to come than previously and the player should raise his/her bet. 
+In 2019, I saw the movie 21 and took an interest in card counting in blackjack. As it turns out, it is really quite simple as long as you practice and follow the rules. The basic premise is that cards dealt are not replaced into the deck immediately which means that it's possible to predict cards to come based upon which have left the deck. Since Aces and large cards (Ten, Jack, Queen, King) favor the player and smaller cards (2-6) favor the dealer, we can keep track of the ratio of favorable cards to unfavorable cards that have been dealt. If there is a surplus of favorable cards yet to be dealt, they are statistically more likely to be dealt to the player and the player should raise his/her bet. 
 
 I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is. 
 
@@ -10,15 +10,15 @@ I wrote this code because it is one thing to be told that this is worth risking 
     python simulate_blackjack.py num_decks=6 deck_penetration=0.1 num_shoes=1000
     
 
-More accurate results will be obtained by increasing the number of shoes run. The number of decks is casino dependent but it is in your best interest to seek blackjack games with fewer decks and smaller deck penetration. Some simulations are shown below illustrating these points. 
+More accurate results will be obtained by increasing the number of shoes run. The number of decks is casino/table dependent but it is in your best interest to seek blackjack games with fewer decks and smaller deck penetration. Some simulations are shown below illustrating these points. 
 
 Note this code assumes the following set of blackjack rules (rules that I have personally encountered). 
 
 1. Dealer stays on Soft 17. 
 2. Splitting is not allowed.
-3. Surrending is allowed. 
-4. You can double whenever. 
-5. Blackjack pays at a 3:2*initial wager rate.
+3. Late Surrender is allowed. 
+4. Doubling down is permitted for any hand. 
+5. Blackjack pays at a 3:2*initial wager rate (avoid games where blackjack pays 6:5*initial wager rate, which is also quite common).
 
 # Common Blackjack terms: 
 
