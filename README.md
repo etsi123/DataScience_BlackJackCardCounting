@@ -7,6 +7,11 @@ I wrote this code because it is one thing to be told that this is worth risking 
 
 # Running : 
 
+    python simulate_blackjack.py num_decks=6 deck_penetration=0.1 num_shoes=1000
+    
+
+where the first argument is the number of decks, the second is deck penetration, and the third is 
+
 # Common Blackjack terms: 
 
 Blackjack Shoe: Container that holds multiple standard 52-card decks shuffled together. The shoe allows for more games to be played by reducing the time between shuffling. 
