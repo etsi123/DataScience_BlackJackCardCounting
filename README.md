@@ -5,6 +5,8 @@ In 2019, I saw the movie 21 and took an interest in card counting in blackjack. 
 
 I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is. 
 
+# Running : 
+
 # Common Blackjack terms: 
 
 Blackjack Shoe: Container that holds multiple standard 52-card decks shuffled together. The shoe allows for more games to be played by reducing the time between shuffling. 
@@ -13,7 +15,7 @@ Doubling down: After the cards have been dealt and it's the players turn to act,
 
 Split: If two cards have the same-value, many casinos allow players to split the cards into two seperate hands that can be played independently (provided that the player can provide a second-bet equal to the first). 
 
-Common card counting terms: 
+# Common card counting terms: 
 
 Cards dealt WITHOUT replacement: Cards are dealt and not immediately replaced/reshuffled into the deck, allowing for card counting to be possible. 
 
