@@ -1,4 +1,4 @@
-# blackjack card counting
+# Blackjack Card Counting
 
 
 In 2019, I saw the movie 21 and took an interest in card counting in blackjack. As it turns out, it is really quite simple as long as you practice and follow the rules. The basic premise is that cards dealt are not replaced into the deck immediately which means that it's possible to predict cards to come based upon which have left the deck. Since Aces and large cards (Ten, Jack, Queen, King) favor the player and smaller cards (2-6) favor the dealer, we can keep track of the ratio of favorable cards to unfavorable cards that have been dealt. If there is a surplus of favorable cards yet to be dealt, they are statistically more likely to come than previously and the player should raise his/her bet. 
