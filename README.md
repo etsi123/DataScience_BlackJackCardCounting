@@ -5,7 +5,7 @@ In 2019, I saw the movie 21 and took an interest in card counting in blackjack. 
 
 I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is. 
 
-Common Blackjack terms: 
+# Common Blackjack terms: 
 
 Blackjack Shoe: Container that holds multiple standard 52-card decks shuffled together. The shoe allows for more games to be played by reducing the time between shuffling. 
 
