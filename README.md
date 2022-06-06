@@ -5,7 +5,7 @@ In 2019, I saw the movie 21 and took an interest in counting cards in blackjack.
 
 I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is.
 
-## Disclaimer: The writer of this code does not assume any financial responsibility for those who risk their money counting cards with blackjack. There is inherent risk to gambling even with an advantage. The edge over the casino is very small, very infrequent, and the predicted standard deviation is very large so I recommend only playing with money that one can afford to lose. I further recommend looking into how to calculate risk of ruin, which is the probability of counting cards perfectly but still losing all of the money that the player allocated to this venture. 
+Disclaimer: The writer of this code does not assume any financial responsibility for those who risk their money counting cards with blackjack. There is inherent risk to gambling even with an advantage. The edge over the casino is very small, very infrequent, and the predicted standard deviation is very large so I recommend only playing with money that one can afford to lose. I further recommend looking into how to calculate risk of ruin, which is the probability of counting cards perfectly but still losing all of the money that the player allocated to this venture. 
 
 # To run the code : 
 
