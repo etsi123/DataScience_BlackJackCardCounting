@@ -18,7 +18,7 @@ Note this code assumes the following set of blackjack rules (rules that I have p
 2. Splitting is not allowed.
 3. Late Surrender is allowed. 
 4. Doubling down is permitted for any hand. 
-5. Blackjack pays at a 3:2 x initial wager rate (avoid games where blackjack pays 6:5 x initial wager rate, which is also quite common).
+5. Blackjack pays at a 3:2 x initial wager rate (Note : avoid games where blackjack pays 6:5 x initial wager rate, which is also quite common).
 
 # Common Blackjack terms: 
 
