@@ -1,7 +1,7 @@
 # Blackjack Card Counting
 
 
-In 2019, I saw the movie 21 and immediately took an interest in beating blackjack with card counting. With a little bit of study, I quickly learned that - like most things - it is quite simple with practice and discpline. The basic premise is that cards dealt are not replaced into the deck immediately which means that it's possible to predict the cards to come with greater accuracy (If anyone is familiar with Bayes' theorum, this is a classic example of that). Since Aces and 10-valued cards (Ten, Jack, Queen, King) favor the player and smaller cards (2-6) favor the dealer, we can keep track of the ratio of favorable cards to unfavorable cards that have been dealt. If there is a surplus of favorable cards still to come, players are statistically more likely to be dealt these cards and should raise their initial bets. I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is.
+In 2019, I saw the movie 21 and immediately took an interest in beating blackjack with card counting. With a little bit of study, I quickly learned that - like most things - card counting is quite simple with practice, discpline, and patience. The basic premise is that cards dealt are not replaced into the deck immediately which means that it's possible to predict the cards to come with greater accuracy (If you're familiar with Bayes' theorum, this is a classic example of that). Since Aces and 10-valued cards (Ten, Jack, Queen, King) favor the player and smaller cards (2-6) favor the dealer, we can keep track of the ratio of favorable cards to unfavorable cards that have been dealt. If there is a surplus of favorable cards still to come, players are statistically more likely to be dealt these cards and should raise their initial bets. I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is.
 
 **Disclaimer:** The writer of this code does not assume any financial responsibility for those who risk their money counting cards with blackjack. There is inherent risk to gambling even with an advantage (Fig. 1). The edge over the casino is very small, very infrequent, and the predicted standard deviation is very large so I recommend only playing with money that one can afford to lose. I further recommend looking into how to calculate risk of ruin, which is the probability of counting cards perfectly but still losing all of the money that the player allocated for this venture. 
 
@@ -10,7 +10,7 @@ In 2019, I saw the movie 21 and immediately took an interest in beating blackjac
     python simulate_blackjack.py num_decks=6 deck_penetration=0.1 num_shoes=20000
     
 
-The number of decks is casino/table dependent but it is in your best interest to seek blackjack games with fewer decks and smaller deck penetration (Fig. 2). Some simulations are shown below illustrating these points. More accurate results will be obtained by increasing the number of shoes run. 
+The number of decks is casino/table dependent but it is in your best interest to seek blackjack games with fewer decks and smaller deck penetration (Fig. 2). More accurate results will be obtained by increasing the number of shoes run. 
 
 Note this code assumes the following set of blackjack rules (rules that I have personally encountered). 
 
