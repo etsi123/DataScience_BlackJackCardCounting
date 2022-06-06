@@ -5,6 +5,8 @@ In 2019, I saw the movie 21 and took an interest in counting cards in blackjack.
 
 I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is.
 
+## Disclaimer: The writer of this code does not assume any financial responsibility for those who risk their money counting cards with blackjack. There is inherent risk to gambling even with an advantage. The edge over the casino is very small, very infrequent, and the predicted standard deviation is very large so I recommend only playing with money that one can afford to lose. I further recommend looking into how to calculate risk of ruin, which is the probability of counting cards perfectly but still losing all of the money that the player allocated to this venture. 
+
 # To run the code : 
 
     python simulate_blackjack.py num_decks=6 deck_penetration=0.1 num_shoes=20000
@@ -41,6 +43,6 @@ Note this code assumes the following set of blackjack rules (rules that I have p
 **Risk of ruin:** The probability of counting cards perfectly but still losing the entire sum of money allocated to this venture. It is a function of player ability (perfect blackjack strategy, card counting, true count conversion), casino rules (number of decks, deck penetration, blackjack payout rate, split rules, doubling after splitting, minimum bet size, etc.) and should be calculated based upon the player's personal risk tolerance. 
 
 
-## Disclaimer: The writer of this code does not assume any financial responsibility for those who risk their money counting cards with blackjack. There is inherent risk to gambling even with an advantage. The edge over the casino is very small, very infrequent, and the predicted standard deviation is very large so I recommend only playing with money that one can afford to lose. I further recommend looking into how to calculate risk of ruin, which is the probability of counting cards perfectly but still losing all of the money that the player allocated to this venture. 
+
 
 
