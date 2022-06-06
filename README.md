@@ -3,7 +3,7 @@
 
 In 2019, I saw the movie 21 and took an interest in counting cards in blackjack. Like most things, it is quite simple with practice and discpline. The basic premise behind card counting is that cards dealt are not replaced into the deck immediately which means that it's possible to predict cards to come with greater accuracy. Since Aces and 10-valued cards (Ten, Jack, Queen, King) favor the player and smaller cards (2-6) favor the dealer, we can keep track of the ratio of favorable cards to unfavorable cards that have been dealt. If there is a surplus of favorable cards still to come, players are statistically more likely to be dealt these favorable cards and should raise their initial bets. 
 
-**I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is. **
+I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is.
 
 # To run the code : 
 
@@ -28,7 +28,7 @@ Note this code assumes the following set of blackjack rules (rules that I have p
 
 **Split:** If two cards have the same-value, many casinos allow players to split the cards into two seperate hands that can be played independently (provided that the player can provide a second-bet equal to the first). One of the casino's that I visited frequently did not allow splits (likely because of the myth that is necessary to count cards). 
 
-**Soft vs hard hand:** An ace can be valued as 1 or an 11. A soft hand is one in which the ace still has the option to be valued with an 11. For example, Ace-6 is referred to as a "soft 17" or "S17" but Ace-6-ten is a "hard 17" or H17.
+**Soft vs hard hand:** An ace can be valued as 1 or an 11. A soft hand is one in which the ace still has the option to be valued with an 11. For example, Ace-6 is referred to as a "soft 17" or "S17" but Ace-6-ten is a "hard 17" or "H17".
 
 # Common card counting terms: 
 
