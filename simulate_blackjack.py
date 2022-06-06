@@ -4,7 +4,6 @@
 
 #author: evantsiklidis
 
-
 import sys
 from random import shuffle
 import matplotlib.pyplot as plt
@@ -14,10 +13,8 @@ import random
 
 
 
+#Initialize the game.
 min_bet = 5
-
-
-
 card_dict = { "Two": 2, "Three": 3, "Four": 4, "Five": 5, "Six": 6, "Seven": 7, "Eight": 8, "Nine": 9, "Ten": 10, "Jack": 10, "Queen": 10, "King": 10,"Ace":11}
 counting_rules = { "Two": 1, "Three": 1, "Four": 1, "Five": 1, "Six": 1, "Seven": 0, "Eight": 0, "Nine": 0, "Ten": -1, "Jack": -1, "Queen": -1, "King": -1,"Ace":-1}
 decision_chart = pd.read_csv('blackjackstratchart_s17.csv')
