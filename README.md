@@ -1,9 +1,9 @@
 # Blackjack Card Counting
 
 
-In 2019, I saw the movie 21 and took an interest in counting cards in blackjack. As it turns out, like most things it is quite simple with practice and discpline. The basic premise behind card counting is that cards dealt are not replaced into the deck immediately which means that it's possible to predict cards to come with greater accuracy. Since Aces and 10-valued cards (Ten, Jack, Queen, King) favor the player and smaller cards (2-6) favor the dealer, we can keep track of the ratio of favorable cards to unfavorable cards that have been dealt. If there is a surplus of favorable cards still to come, players are statistically more likely to be dealt these favorable cards and should raise their initial bets. 
+In 2019, I saw the movie 21 and took an interest in counting cards in blackjack. Like most things, it is quite simple with practice and discpline. The basic premise behind card counting is that cards dealt are not replaced into the deck immediately which means that it's possible to predict cards to come with greater accuracy. Since Aces and 10-valued cards (Ten, Jack, Queen, King) favor the player and smaller cards (2-6) favor the dealer, we can keep track of the ratio of favorable cards to unfavorable cards that have been dealt. If there is a surplus of favorable cards still to come, players are statistically more likely to be dealt these favorable cards and should raise their initial bets. 
 
-I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is. 
+### **I wrote this code because it is one thing to be told that this is worth risking money for and another thing to prove that it is. **
 
 # To run the code : 
 
