@@ -48,11 +48,11 @@ Note this code assumes the following set of blackjack rules (rules that I have p
 
 ![Money_earned_with_sd](https://user-images.githubusercontent.com/37279371/172241945-bb9ba702-20da-4299-bef3-cd24e59de0f0.png)
 
-Fig. 1 Predicted hourly rate assuming perfect card counting +/- 1 standard deviation. An example of a particularly poor trajectory as a result of negative variance is shown as well. Note that the person's winnings dips well below $0 during the first 200 hours: this is completely possible and likely for some percentage of card counters. This result assumes the completion of 3 shoes per hour. 
+Fig. 1 Predicted hourly rate assuming perfect card counting +/- 1 standard deviation. An example of a particularly poor trajectory as a result of negative variance is shown as well. Note that the person's winnings dips well below $0 during the first 200 hours: this is completely possible and likely for some percentage of card counters. Expected value per hour calculated assuming 3 shoes / hour. 
 
-![Deck_pen](https://user-images.githubusercontent.com/37279371/172239975-04b5123c-a8cb-42cb-8c53-b3fec4ae074a.png)
+![Deck_pen](https://user-images.githubusercontent.com/37279371/172288068-557a7c44-f2f1-4def-b803-129fe338eded.png)
 
-Fig. 2 The Effect of deck penetration on money earned. Deck penetration directly effects card counting accuracy so this strong impact is not unsurprising. Players should avoid games with poor deck penetration (larger fraction of the deck unplayed). This result assumes the completion of 3 shoes per hour. 
+Fig. 2 The effect of deck penetration on expected value. Deck penetration directly impacts card counting accuracy so this strong dependence is not unsurprising. Players should avoid games with poor deck penetration (larger fraction of the deck unplayed). This result assumes the completion of 3 shoes / hour. 
 
 
 
