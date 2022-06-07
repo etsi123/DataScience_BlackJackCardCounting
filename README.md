@@ -9,7 +9,7 @@ Note: It is a common misconception that counting cards is illegal. It is perfect
 
 # To run the code : 
 
-    python simulate_blackjack.py num_decks=6 deck_penetration=0.1 num_shoes=20000
+    python simulate_blackjack.py num_decks=6 deck_penetration=0.1 num_shoes=20000 min_bet=5
     
 
 The number of decks is casino/table dependent but it is in your best interest to seek Blackjack games with fewer decks and smaller deck penetration (Fig. 2). More accurate results will be obtained by increasing the number of shoes run. 
