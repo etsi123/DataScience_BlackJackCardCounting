@@ -24,15 +24,15 @@ Note this code assumes the following set of blackjack rules (rules that I have p
 
 # Common Blackjack terms: 
 
-**Blackjack Shoe:** Container that holds multiple standard 52-card decks shuffled together. The shoe allows for more games to be played by reducing the time between shuffling. 
+**Blackjack Shoe:** Container that holds multiple standard 52-card decks shuffled together. The shoe allows for more games to be played by reducing shuffle frequency. 
 
 **Bust:** Being dealt a card that causes the player or dealer to exceed 21 and lose instantly. 
 
 **Doubling down:** After the cards have been dealt and it's the players turn to act, a player is allowed to raise their bet by a maximum of 2x the original bet but can only receive one card. This makes doubling down on hands that cannot bust popular. 
 
-**Split:** If two cards have the same-value, many casinos allow players to split the cards into two seperate hands that can be played independently (provided that the player can provide a second-bet equal to the first). Several of the casino's that I have visited did not allow splits (likely because of the myth that is necessary to count cards). 
+**Split:** If two cards have the same-value, many casinos allow players to split the cards into two seperate hands that can be played independently (provided that the player can provide a second-bet equal to the first). Several of the casino's that I have visited did not allow splits. 
 
-**Soft vs hard hand:** An ace can be valued as 1 or an 11. A soft hand is one in which the ace still has the option to be valued with an 11. For example, Ace-6 is referred to as a "soft 17" or "S17" but Ace-6-ten is a "hard 17" or "H17".
+**Soft vs hard hand:** An ace can be valued as 1 or an 11. A soft hand is one in which the ace still has the option to be valued as an 11. For example, Ace-6 is referred to as a "soft 17" or "S17" but Ace-6-ten is a "hard 17" or "H17".
 
 **Late Surrender:** The player can surrender his/her bet for half of the initial wager provided that the dealer does not have a blackjack. 
 
