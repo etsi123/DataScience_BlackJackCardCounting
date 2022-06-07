@@ -52,7 +52,7 @@ Fig. 1 Predicted hourly rate assuming perfect card counting +/- 1 standard devia
 
 ![Deck_pen](https://user-images.githubusercontent.com/37279371/172288068-557a7c44-f2f1-4def-b803-129fe338eded.png)
 
-Fig. 2 The effect of deck penetration on expected value. Deck penetration directly impacts card counting accuracy so this strong dependence is not unsurprising. Players should avoid games with poor deck penetration (larger fraction of the deck unplayed). This result assumes the completion of 3 shoes / hour. 
+Fig. 2 The effect of deck penetration on expected value. Deck penetration directly impacts card counting accuracy so this strong dependence is expected. Players should avoid games with poor deck penetration (larger fraction of the deck unplayed). These plots assume the completion of 3 shoes / hour. 
 
 
 
