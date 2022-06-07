@@ -2,7 +2,7 @@
 
 **Disclaimer:** The writer of this code does not assume any financial responsibility for those who risk their money counting cards with blackjack. There is inherent risk to gambling even with an advantage (Fig. 1). The edge over the casino is very small, very infrequent, and the predicted standard deviation is very large so I recommend only playing with money that one can afford to lose. I further recommend looking into how to calculate risk of ruin, which is the probability of counting cards perfectly but still losing all of the money that the player allocated for this venture. 
 
-Note: It is a common misconception that counting cards is illegal. It is perfectly legal to count cards in BlackJack in all 50 states, how can it be illegal to allow players to use their brains during a game? 
+Note: It is a common misconception that counting cards is illegal. It is perfectly legal to count cards in BlackJack in all 50 states; how can it be illegal to allow players to use their brains during a game? 
 
 # To run the code : 
 
