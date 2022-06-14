@@ -42,7 +42,7 @@ Note this code assumes the following set of Blackjack rules (rules that I have p
 
 **True count:** The running count divided by the number of decks remaining. Larger true counts raise the player's edge over the casino and should be accompanied by raising the bet size. 
 
-**Deck penetration:** Primarily to prevent effective card counting, some fraction of cards in the shoe are not dealt. The greater the number of cards not dealt, the less effective card counting will be. A large deck penetration increases shuffletime so the casino must balance their desire to prevent effective card counters with their desire to play as many hands as possible. 
+**Deck penetration:** Primarily to prevent effective card counting, some fraction of cards in the shoe are not dealt. The greater the number of cards not dealt, the less effective card counting will be. A large deck penetration leads to more time spent shuffling, so the casino must balance their desire to prevent effective card counters with their desire to play as many hands as possible. 
 
 **Risk of ruin:** The probability of counting cards perfectly but still losing the entire sum of money allocated to this venture. It is a function of player ability (perfect blackjack strategy, card counting, true count conversion), casino rules (number of decks, deck penetration, blackjack payout rate, split rules, doubling after splitting, minimum bet size, etc.). The player's bet spread should be constructed such that the risk of ruin falls within a comfortable range. 
 
