@@ -30,7 +30,7 @@ Note this code assumes the following set of Blackjack rules (rules that I have p
 
 **Doubling down:** After the cards have been dealt and it's the players turn to act, a player is allowed to raise their bet by a maximum of 2x the original bet but can only receive one card. This makes doubling down on hands that cannot bust popular. 
 
-**Split:** If two cards have the same-value, many casinos allow players to split the cards into two seperate hands that can be played independently (provided that the player can provide a second-bet equal to the first). Several of the casino's that I have visited did not allow splits. 
+**Split:** If two cards have the same-value, many casinos allow players to split the cards into two separate hands that can be played independently (provided that the player can provide a second-bet equal to the first). Several of the casino's that I have visited did not allow splits. 
 
 **Soft vs hard hand:** An ace can be valued as 1 or an 11. A soft hand is one in which the ace still has the option to be valued as an 11. For example, Ace-6 is referred to as a "soft 17" or "S17" but Ace-6-ten is a "hard 17" or "H17".
 
@@ -48,7 +48,7 @@ Note this code assumes the following set of Blackjack rules (rules that I have p
 
 ![Money_earned_with_sd](https://user-images.githubusercontent.com/37279371/172241945-bb9ba702-20da-4299-bef3-cd24e59de0f0.png)
 
-Fig. 1 Predicted hourly rate assuming perfect card counting +/- 1 standard deviation. An example of a particularly poor trajectory as a result of negative variance is shown as well. Note that the person's winnings dips well below $0 during the first 200 hours: this is completely possible and likely for some percentage of card counters. Expected value per hour calculated assuming 3 shoes / hour and $5 minimum bet. 
+Fig. 1 Predicted hourly rate assuming perfect card counting +/- 1 standard deviation. An example of a particularly poor trajectory as a result of negative variance is shown as well. Note that the person's winnings dips well below $0 during the first 100 hours: this is completely possible and likely for some percentage of card counters. Expected value per hour calculated assuming 3 shoes / hour and $5 minimum bet. 
 
 ![Deck_pen](https://user-images.githubusercontent.com/37279371/172288068-557a7c44-f2f1-4def-b803-129fe338eded.png)
 
