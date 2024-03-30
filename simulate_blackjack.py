@@ -307,7 +307,7 @@ def plot_deckpen_impact(mean_hourly_rates=[27,19,9,7,3],pens=[0.1,0.2,0.3,0.4,0.
 
 #Driver code. 
 if __name__ == "__main__":
-
+    #argsys would be better, will updatte next
     num_decks,deck_penetration,min_bet,num_shoes = int(sys.argv[1].split('=')[1]),float(sys.argv[2].split('=')[1])\
     ,int(sys.argv[3].split('=')[1]),int(sys.argv[4].split('=')[1])
 
